@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementsByClassName("header")[0].innerHTML = "ata:view.title.escaped";
+  document.getElementsByClassName("header")[0].innerHTML = "<data:view.title.escaped/>";
 });
